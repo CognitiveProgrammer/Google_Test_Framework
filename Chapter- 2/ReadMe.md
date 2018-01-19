@@ -1,4 +1,4 @@
-# Chapter- 3: Test Fixtures
+# Chapter- 2: Test Fixtures
 
 ## 3.0: Background
 
