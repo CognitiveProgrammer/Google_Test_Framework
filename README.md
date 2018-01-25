@@ -10,6 +10,6 @@ This repository contains a tutorial and code about the usage of Google Test Fram
 
 [Chapter- 2: Writing Test Fixtures ](https://github.com/9lean/Google_Test_Framework/tree/master/Chapter-%202)
 
-[Chapter- 2: Writing Google Mock - The Mocking Framework ](https://github.com/9lean/Google_Test_Framework/tree/master/Chapter-%203)
+[Chapter- 3: Writing Google Mock - The Mocking Framework ](https://github.com/9lean/Google_Test_Framework/tree/master/Chapter-%203)
 
 
