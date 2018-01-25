@@ -8,7 +8,7 @@ Mocks should not be compared with __Stubs__ or __Fakes__ as they are different t
 
 #### Mocks
 
-__Mocks__ are used for test the behaviour of API(s) / Interfaces usage within a component under test. For example, we can _Mock_ the HTTP API(s) to test our component which is using HTTP for fetching the data from the server
+__Mocks__ are used for testing the behaviour of API(s) / Interfaces which will be used in component under test.. For example, we can _Mock_ the HTTP API(s) to test our component which is using HTTP for fetching the data from the server
 
 #### Fakes
 
