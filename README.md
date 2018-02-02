@@ -12,4 +12,5 @@ This repository contains a tutorial and code about the usage of Google Test Fram
 
 [Chapter- 3: Writing Google Mock - The Mocking Framework ](https://github.com/9lean/Google_Test_Framework/tree/master/Chapter-%203)
 
+[Chapter- 4: GMock Usage, Tips and Tricks ](https://github.com/9lean/Google_Test_Framework/tree/master/Chapter-%204)
 
