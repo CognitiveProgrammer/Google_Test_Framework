@@ -170,10 +170,11 @@ TEST(MyDBTest, LoginAttemptNoDerivation) {
 
   // Setting the expectation
 	ON_CALL(mockDb, login(_, _)).WillByDefault(Invoke(&testDefault, &TestABC::gFn));
+	ON_CALL(mockDb, login(_, _)).WillByDefault(Invoke(&testDefault, &TestABC::SomeOtherFn));
 
   // Making Default Calls
-	EXPECT_CALL(mockDb, login(_, _)).Times(1).WillOnce(DoDefault());
-	EXPECT_CALL(mockDb, logout(_)).Times(1).WillOnce(DoDefault());
+	EXPECT_CALL(mockDb, login(_, _)).Times(1).WillOnce(DoDefault()); // calls gFn
+	EXPECT_CALL(mockDb, logout(_)).Times(1).WillOnce(DoDefault());  // calls SomeOtherFn
 
 	// call both login and logout function
 	int value = db.Init("Terminator", "I'll be Back");
